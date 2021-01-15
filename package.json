@@ -1,0 +1,33 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "this is nodejs basics course",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AkselDjun/Weather-app.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "js",
+    "javascript",
+    "express"
+  ],
+  "author": "Alexei Khinevich",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AkselDjun/Weather-app/issues"
+  },
+  "homepage": "https://github.com/AkselDjun/Weather-app#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
