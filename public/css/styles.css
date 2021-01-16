@@ -13,13 +13,14 @@ body {
   align-items: center;
   padding: 20px;
   overflow: hidden;
-  background: linear-gradient(#CB356B, #BD3F32);
+  background: url('./background.jpg');
+  background-size: 100%;
 }
 
 .app {
-  background: #fff;
+  background: rgb(201, 228, 255);
   padding: 20px;
-  width: 600px;
+  width: 550px;
   margin: 0 auto;
   box-shadow: 0 1px 30px 0 rgba(0,0,0,0.14), 0 0 0 0 rgba(0,0,0,.12), 0 0 0 0 rgba(0,0,0,.3);
   border-radius: 10px;
@@ -51,7 +52,7 @@ body {
 .input label {
   display: inline-block;
   max-width: 100%;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
   color: #acacac;
   font-family: GothamPro,sans-serif;
   font-size: .8rem;
@@ -63,15 +64,15 @@ body {
   display: block;
   width: 100%;
   max-height: 2.8rem;
-  padding: .8rem 1rem;
-  font-size: inherit;
+  padding: .6rem .8rem;
+  font-size: 20px;
   font-family: inherit;
   font-weight: inherit;
   line-height: 1.4;
   color: #000;
   background: #fff none;
-  border: 1px solid #999;
-  border-radius: 5px;
+  border: 2px solid #999;
+  border-radius: 7px;
 }
 
 .hide {
